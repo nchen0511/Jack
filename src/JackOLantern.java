@@ -10,7 +10,7 @@ public class JackOLantern {
 
     public void fill (String str){
         for(int i=0;i<this.face.length;i++){
-            for(int n=0;i<this.face[i].length;n++){
+            for(int n=0;n<this.face[i].length;n++){
                 this.face[i][n] = str;
             }
         }
@@ -19,7 +19,7 @@ public class JackOLantern {
     public String toString(){
         String face = "";
         for(int i=0;i<this.face.length;i++){
-            for(int n=0;i<this.face[i].length;n++){
+            for(int n=0;n<this.face[i].length;n++){
                 face += this.face[i][n];
             }
             face+="\n";
